@@ -1,4 +1,5 @@
 @import "~bulma/sass/utilities/initial-variables"
+@import url('https://fonts.googleapis.com/css?family=Notable&display=swap')
 
 // Config vars
 $kaldi-red: #44ddff
@@ -6,7 +7,7 @@ $kaldi-red-invert: #33ddff
 
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
-
+$font0: 'Notable', sans-serif
 html
   background: #343a40
   color: #e5e5e5
@@ -18,24 +19,36 @@ p
 h1
   color: #44ddff !important
   border-bottom: 0.25rem solid $kaldi-red
+  font-family: $font0 
 h2
   color: #44ddff !important
   border-bottom: 0.25rem solid $kaldi-red
+  font-family: $font0 
+
 h3
   color: #44ddff !important
   border-bottom: 0.25rem solid $kaldi-red
+  font-family: $font0 
 h4
   color: #e5e5e5 !important
+  font-family: $font0 
 h5
   color: #e5e5e5 !important
+  font-family: $font0 
 h6
   color: #e5e5e5 !important
+  font-family: $font0 
 nav
  background: #44ddff !important
  color: #343a40 !important
+ font-family: $font0 
+
  h1
   color: #343a40 !important
   background: #44ddff !important
+  font-size: 3rem;
+  font-family: $font0 
+
 .content .taglist
   list-style: none
   margin-bottom: 0
