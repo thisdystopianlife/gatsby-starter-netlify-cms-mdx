@@ -12,7 +12,7 @@ const Navbar = () => (
         </Link>
       </div>
       <div className="navbar-start">
-        <Link className="navbar-item" to="/about">
+        <Link className="navbar-item color-black" to="/about">
           About
         </Link>
       </div>
