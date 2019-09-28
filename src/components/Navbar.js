@@ -8,9 +8,7 @@ const Navbar = () => (
     <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
-          <figure className="image">
             <h1> This Dystopian Life </h1>
-          </figure>
         </Link>
       </div>
       <div className="navbar-start">
