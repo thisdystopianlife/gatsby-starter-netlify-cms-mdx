@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby + Netlify CMS + MDX Starter",
-    description: `gatsby-mdx netlifycms starter`,
+    title: "This Dystopian Life",
+    description: `A thinking person's 21st Century`,
     docsLocation: `https://github.com/ChristopherBiscardi/gatsby-mdx/tree/master/examples/docs/content`
   },
   plugins: [
