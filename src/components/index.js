@@ -15,7 +15,7 @@ import React, { Component } from "react";
 export function Echo(props) {
   const { children, color = "green", ...rest } = props;
   return (
-    <div style={{ border: "3px solid orangered" }}>
+    <div style={{ border: "3px solid #44ddff" }}>
       <div>
         This is a React component! Stringifying props: {JSON.stringify(rest)}
       </div>
